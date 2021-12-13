@@ -1,0 +1,221 @@
+body{
+	background-color:  green;
+}
+
+div.d1,div.d2,div.d3,div.d4,div.d5{
+width: 100px;
+height: 210px;
+border: 4px solid #000000;
+size: 30px;
+position: absolute;
+border-radius: 10px;
+right: 120px;
+}
+
+
+
+div.d1{
+color: red;
+z-index: -5; 
+  background-color: white;
+  animation-name: uno;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  top: 110px;
+	left: 20px;
+	transform: rotate(-20deg);
+}
+@keyframes uno {
+  0%   {left:0px; top:0px;}
+  25%  {left:100px; top:0px;}
+  50%  {left:100px; top:100px;}
+  75%  {left:0px; top:100px;}
+  100% {left:0px; top:0px;}
+}
+
+div.numeropalo1{
+	font-size: 20px;
+}
+
+div.numeropalo1_i{
+	font-size: 20px;
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+div.figura{
+	position: absolute;
+	font-size: 30px;
+}
+#Diamante1{
+	font-size: 130px;
+	left: 35px;
+	bottom: 60px;
+}
+
+
+div.d2{
+	 color: black;
+	 z-index: -4;
+	background-color: white;
+	animation-name: dos;
+	animation-duration: 4s;
+    animation-delay: 2s;
+	top: 110px;
+	left: 25px;
+	transform: rotate(-15deg);
+}
+@keyframes dos {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+div.numeropalo2{
+	font-size: 20px;
+}
+
+div.numeropalo2_i{
+	font-size: 20px;
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#Pica1{
+	 left: 30px;
+	 bottom: 160px;
+}
+#Pica2{
+	left: 105px;
+	bottom: 160px;
+}
+#Pica3{
+	left: 30px;
+	bottom: 50px;
+	transform:rotate(180deg);
+}
+#Pica4{
+	left: 105px;
+	bottom: 50px;
+	transform:rotate(180deg);
+} 
+div.d3{
+	color: red;
+	z-index: -3; 
+	    background-color: white;
+	animation-name: tres;
+	animation-duration: 4s;
+    animation-delay: 3s;
+	top: 110px;
+	left: 20px;
+	transform: rotate(-15deg);
+}
+@keyframes tres {
+  0%   {left:0px; top:0px;}
+  25%  {left:300px; top:0px;}
+  50%  {left:300px; top:300px;}
+  75%  {left:0px; top:300px;}
+  100% {left:0px; top:0px;}
+}
+div.numeropalo3{
+	font-size: 20px;
+}
+
+div.numeropalo3_i{
+	font-size: 20px;
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#Corazon1{
+	 left: 30px;
+	 top: 170px;
+}
+#Corazon2{
+	left: 100px;
+	bottom: 170px;
+}
+#Corazon3{
+	 left: 30px;
+	 bottom: 100px;
+}
+#Corazon4{
+	left: 100px;
+	bottom: 100px;
+}
+#Corazon5{
+	left: 30px;
+	bottom: 20px;
+	transform:rotate(180deg);
+}
+#Corazon6{
+	left: 100px;
+	bottom: 20px;
+	transform:rotate(180deg);
+}
+div.d4{
+	 color: black;
+	 z-index: -2; 
+	  transform: rotate(-10deg);
+	    background-color: white;
+    animation-name: cuatro;
+	animation-duration: 4s;
+    animation-delay: 4s;
+    top: 110px;
+	left: 20px;
+	transform: rotate(-10deg);	
+}
+@keyframes cuatro {
+  0%   {left:0px; top:0px;}
+  25%  {left:400px; top:0px;}
+  50%  {left:400px; top:400px;}
+  75%  {left:0px; top:400px;}
+  100% {left:0px; top:0px;}
+}
+div.numeropalo4{
+	font-size: 20px;
+}
+
+div.numeropalo4_i{
+	font-size: 20px;
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 0px;
+	right: 120px;
+}
+#Trebol1{
+	 left: 30px;
+	 top: 170px;
+}
+#Trebol2{
+	 left: 100px;
+	bottom: 170px;
+}
+#Trebol3{
+	left: 30px;
+	bottom: 90px;
+}
+#Trebol4{
+	left: 100px;
+	bottom: 90px;
+}
+#Trebol5{
+	left: 65px;
+	bottom: 130px;
+}
+#Trebol6{
+	 left: 30px;
+	bottom: 20px;
+	transform:rotate(180deg);
+}
+#Trebol7{
+	 left: 100px;
+	bottom: 20px;
+	transform:rotate(180deg);
+}

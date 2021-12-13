@@ -1,0 +1,16 @@
+div{
+	width: 80px;
+	height: 40px;
+	border: 6px solid;
+	border-color: black;
+	border-radius: 10px;
+	background-image:url('../imagenes/RUSIA.jpeg') ;
+	background-repeat: no-repeat ;
+	background-size: 100%;
+}
+
+div:hover{
+	background-image: url('../imagenes/URRS.jpeg');
+	background-repeat: no-repeat ;
+	background-size: 100%;
+}
